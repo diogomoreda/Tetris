@@ -1,0 +1,60 @@
+html, body {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.tetris > div {
+    box-sizing: border-box;
+    background-color: #999;
+    /*border-right: 2px solid #555;
+    border-bottom: 2px solid #555;
+    border: 1px solid #555;
+    */
+}
+
+.tetris section {
+    position: relative;
+    text-align: center;
+    color: #333;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.tetris section:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    opacity: 0.5;
+}
+.tetris section > div {
+    position: relative;
+    padding: 50px 0;
+}
+
+.tetris section ul {
+    text-align: left;
+}
+
+.tetris section li > strong:after {
+    content: ":";
+    display: inline;
+    font-weight: 400;
+    margin-right: 12px;
+}
