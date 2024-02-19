@@ -3,6 +3,9 @@ javascript interpretation of the logic behind Alexey Pajitnov's Tetris.
 
 ![tetris-demo](https://github.com/diogomoreda/Tetris/assets/6032350/951a8fee-4ae5-4225-9e3d-9a6c4b71e4f8)
 
+## Try Me
+<https://diogomoreda.github.io/tetris/>
+
 ### Development notes
 - clone repository
 - in a terminal, navigate to the project root folder and run: npm install
